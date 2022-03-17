@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegisterValidation" time="10.055" tests="2" failures="0" errors="0">
+   <testsuite name="RegisterValidation" tests="2" failures="0" errors="0" time="10.055" skipped="0" timestamp="2022-03-17 22:41:20" hostname="th-1-000250 - 192.168.0.101" id="Test Suites/RegisterValidation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_224105/RegisterValidation/20220317_224105"/>
+         <property name="logFiles" value="/Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_224105/RegisterValidation/20220317_224105/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="th-1-000250 - 192.168.0.101"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Register/ValidateRegisterFailed" time="5.122" classname="Test Cases/Register/ValidateRegisterFailed" status="PASSED">
+         <system-out><![CDATA[2022-03-17 22:41:21 - [TEST_CASE][PASSED] - Test Cases/Register/ValidateRegisterFailed: Test Cases/Register/ValidateRegisterFailed
+
+2022-03-17 22:41:22 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Register/FailedRegister")): Send request successfully
+
+2022-03-17 22:41:26 - [MESSAGE][INFO] - HAR: /Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_224105/RegisterValidation/20220317_224105/requests/main/0.har
+
+2022-03-17 22:41:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-17 22:41:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2022-03-17 22:41:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-03-17 22:41:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+2022-03-17 22:41:26 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/ValidateRegisterSuccess" time="3.929" classname="Test Cases/Register/ValidateRegisterSuccess" status="PASSED">
+         <system-out><![CDATA[2022-03-17 22:41:26 - [TEST_CASE][PASSED] - Test Cases/Register/ValidateRegisterSuccess: Test Cases/Register/ValidateRegisterSuccess
+
+2022-03-17 22:41:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Register/SuccessRegister")): Send request successfully
+
+2022-03-17 22:41:30 - [MESSAGE][INFO] - HAR: /Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_224105/RegisterValidation/20220317_224105/requests/main/1.har
+
+2022-03-17 22:41:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-17 22:41:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-03-17 22:41:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-03-17 22:41:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", 4): Verify element property value successfully
+
+2022-03-17 22:41:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-17 22:41:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+2022-03-17 22:41:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-17 22:41:20 - [TEST_SUITE][PASSED] - RegisterValidation: Test Cases/Register/ValidateRegisterSuccess]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

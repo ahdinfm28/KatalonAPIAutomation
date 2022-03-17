@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginValidation,,,,2022-03-17 22:40:36,2022-03-17 22:40:43,7.069s,PASSED
+,,,,,,,
+Test Cases/Login/ValidateLoginFailed,,,,2022-03-17 22:40:36,2022-03-17 22:40:41,4.134s,PASSED
+"response = sendRequest(findTestObject(""Login/FailedLogin""))",,,,2022-03-17 22:40:37,2022-03-17 22:40:40,3.210s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2022-03-17 22:40:40,2022-03-17 22:40:40,0.036s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Missing password"")",,,,2022-03-17 22:40:40,2022-03-17 22:40:41,0.145s,PASSED
+,,,,,,,
+Test Cases/Login/ValidateLoginSuccess,,,,2022-03-17 22:40:41,2022-03-17 22:40:43,2.135s,PASSED
+"response = sendRequest(findTestObject(""Login/SuccessLogin""))",,,,2022-03-17 22:40:41,2022-03-17 22:40:43,1.489s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-03-17 22:40:43,2022-03-17 22:40:43,0.004s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,2022-03-17 22:40:43,2022-03-17 22:40:43,0.033s,PASSED
