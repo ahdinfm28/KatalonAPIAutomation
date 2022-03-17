@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegisterValidation,,,,2022-03-17 22:25:38,2022-03-17 22:25:52,13.620s,PASSED
+,,,,,,,
+Test Cases/User/ValidateUserLists,,,,2022-03-17 22:25:39,2022-03-17 22:25:46,6.536s,PASSED
+"response = sendRequest(findTestObject(""User/UserLists""))",,,,2022-03-17 22:25:40,2022-03-17 22:25:46,5.222s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-03-17 22:25:46,2022-03-17 22:25:46,0.024s,PASSED
+"verifyElementPropertyValue(response, ""page"", 1)",,,,2022-03-17 22:25:46,2022-03-17 22:25:46,0.176s,PASSED
+,,,,,,,
+Test Cases/User/ValidateUserNotFound,,,,2022-03-17 22:25:46,2022-03-17 22:25:49,2.738s,PASSED
+"response = sendRequest(findTestObject(""User/UserNotFound""))",,,,2022-03-17 22:25:47,2022-03-17 22:25:48,1.776s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2022-03-17 22:25:48,2022-03-17 22:25:49,0.009s,PASSED
+,,,,,,,
+Test Cases/User/ValidateUserDetails,,,,2022-03-17 22:25:49,2022-03-17 22:25:52,3.504s,PASSED
+"response = sendRequest(findTestObject(""User/UserDetails""))",,,,2022-03-17 22:25:50,2022-03-17 22:25:52,2.448s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-03-17 22:25:52,2022-03-17 22:25:52,0.011s,PASSED
+"verifyElementPropertyValue(response, ""data.id"", 2)",,,,2022-03-17 22:25:52,2022-03-17 22:25:52,0.044s,PASSED

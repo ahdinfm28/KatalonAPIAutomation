@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegisterValidation" time="12.592" tests="3" failures="0" errors="0">
+   <testsuite name="RegisterValidation" tests="3" failures="0" errors="0" time="12.592" skipped="0" timestamp="2022-03-17 22:26:03" hostname="th-1-000250 - 192.168.0.101" id="Test Suites/RegisterValidation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_222508/RegisterValidation/20220317_222508"/>
+         <property name="logFiles" value="/Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_222508/RegisterValidation/20220317_222508/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="th-1-000250 - 192.168.0.101"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/User/ValidateUserLists" time="6.668" classname="Test Cases/User/ValidateUserLists" status="PASSED">
+         <system-out><![CDATA[2022-03-17 22:26:04 - [TEST_CASE][PASSED] - Test Cases/User/ValidateUserLists: Test Cases/User/ValidateUserLists
+
+2022-03-17 22:26:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/UserLists")): Send request successfully
+
+2022-03-17 22:26:10 - [MESSAGE][INFO] - HAR: /Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_222508/RegisterValidation/20220317_222508/requests/main/0.har
+
+2022-03-17 22:26:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-17 22:26:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-03-17 22:26:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-03-17 22:26:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "page", 1): Verify element property value successfully
+
+2022-03-17 22:26:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/ValidateUserNotFound" time="3.363" classname="Test Cases/User/ValidateUserNotFound" status="PASSED">
+         <system-out><![CDATA[2022-03-17 22:26:11 - [TEST_CASE][PASSED] - Test Cases/User/ValidateUserNotFound: Test Cases/User/ValidateUserNotFound
+
+2022-03-17 22:26:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/UserNotFound")): Send request successfully
+
+2022-03-17 22:26:14 - [MESSAGE][INFO] - HAR: /Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_222508/RegisterValidation/20220317_222508/requests/main/1.har
+
+2022-03-17 22:26:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-17 22:26:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2022-03-17 22:26:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User/ValidateUserDetails" time="1.857" classname="Test Cases/User/ValidateUserDetails" status="PASSED">
+         <system-out><![CDATA[2022-03-17 22:26:14 - [TEST_CASE][PASSED] - Test Cases/User/ValidateUserDetails: Test Cases/User/ValidateUserDetails
+
+2022-03-17 22:26:15 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("User/UserDetails")): Send request successfully
+
+2022-03-17 22:26:16 - [MESSAGE][INFO] - HAR: /Users/th-1-000250/git/KatalonAPIAutomation/Reports/20220317_222508/RegisterValidation/20220317_222508/requests/main/2.har
+
+2022-03-17 22:26:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-17 22:26:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-03-17 22:26:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-03-17 22:26:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 2): Verify element property value successfully
+
+2022-03-17 22:26:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-17 22:26:03 - [TEST_SUITE][PASSED] - RegisterValidation: Test Cases/User/ValidateUserDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

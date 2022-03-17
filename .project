@@ -17,9 +17,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>kat-5504322063496916120.groovy</name>
+			<name>kat-2652251555575853389.groovy</name>
 			<type>1</type>
-			<location>/var/folders/1h/wxy1140n6xjb2mlw9541v3j80000gn/T/Katalon/Web Services/kat-5504322063496916120.groovy</location>
+			<location>/var/folders/1h/wxy1140n6xjb2mlw9541v3j80000gn/T/Katalon/Web Services/kat-2652251555575853389.groovy</location>
+		</link>
+		<link>
+			<name>kat-5594936107824807914.groovy</name>
+			<type>1</type>
+			<location>/var/folders/1h/wxy1140n6xjb2mlw9541v3j80000gn/T/Katalon/Web Services/kat-5594936107824807914.groovy</location>
+		</link>
+		<link>
+			<name>kat-6273472560213001465.groovy</name>
+			<type>1</type>
+			<location>/var/folders/1h/wxy1140n6xjb2mlw9541v3j80000gn/T/Katalon/Web Services/kat-6273472560213001465.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -34,6 +44,42 @@
 		</filter>
 		<filter>
 			<id>1647493862370</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1647503428819</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1647503428835</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1647528853755</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1647528853765</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
